@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:gravity="center" >
+
+    <AutoCompleteTextView
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:hint="Search..."
+        android:textColorHint="@color/white"
+        android:textColor="#FFFFFF"
+        android:nextFocusUp="@id/editText1"
+        android:nextFocusLeft="@id/editText1"
+        android:backgroundTint="@android:color/white">
+    </AutoCompleteTextView>
+</LinearLayout>
